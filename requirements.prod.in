@@ -2,3 +2,11 @@
 
 # To generate requirements file, run:
 # pip-compile --generate-hashes --output-file=requirements.prod.txt requirements.prod.in
+
+django
+environs[django]
+furl
+gunicorn
+lxml
+requests-cache
+requests

@@ -1,0 +1,9 @@
+# Debug on
+DEBUG=True
+DJANGO_VITE_DEV_MODE=False
+
+# A long random string
+SECRET_KEY=abcdefg
+
+# github token for fetching info about private repos
+GITHUB_TOKEN=dummy

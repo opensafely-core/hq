@@ -8,6 +8,7 @@ dev_setup:
     set -euo pipefail
     . scripts/setup_functions
     dev_setup
+    ./manage.py migrate
 
 # run the test suite. Optional args are passed to pytest
 test ARGS="":
@@ -52,4 +53,8 @@ update TARGET="prod":
 
 # Run the dev project
 run:
-    echo "Not implemented yet"
+    #!/usr/bin/env bash
+    set -euo pipefail
+    . scripts/setup_functions
+    dev_setup
+    ./manage.py runserver

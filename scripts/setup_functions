@@ -24,9 +24,18 @@ ensure_virtual_env () {
 }
 
 
+ensure_dotenv () {
+  if [[ ! -f "$BASE_DIR/.env" ]]; then
+      echo "Setting up .env file"
+    cp "$BASE_DIR/dotenv-sample" "$BASE_DIR/.env"
+  fi
+}
+
 dev_setup () {
   ensure_virtual_env
   echo "Ensuring dev setup"
+
+  ensure_dotenv
 
   # Ensure pip-tools has been installed
   if [[ ! -f "$VIRTUAL_ENV/bin/pip-compile" ]]; then

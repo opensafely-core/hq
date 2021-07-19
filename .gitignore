@@ -100,3 +100,7 @@ htmlcov
 # Virtual environments
 .venv/
 venv/
+
+db.sqlite3
+.env
+http_cache.sqlite

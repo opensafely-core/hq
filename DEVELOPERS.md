@@ -27,6 +27,14 @@ Set up a local development environment with:
 just dev_setup
 ```
 
+Run the local django server with:
+```
+just run
+```
+
+Access at http://localhost:8000
+
+
 ## Tests
 Run the tests with:
 ```
