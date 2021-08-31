@@ -8,5 +8,6 @@ environs[django]
 furl
 gunicorn
 lxml
+osgithub
 requests-cache
 requests
