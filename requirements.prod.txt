@@ -164,9 +164,9 @@ requests==2.26.0 \
     #   -r requirements.prod.in
     #   osgithub
     #   requests-cache
-requests-cache==0.7.1 \
-    --hash=sha256:1e88c6bc7037df2a0f06377c7420aa60450abc8ac11c760bc562a6e50482e364 \
-    --hash=sha256:e6d7bd47c33d2e46e96d192a6a8fa318222cc3c093cbf0c97aae350f1d9d1ca3
+requests-cache==0.7.4 \
+    --hash=sha256:4786190991b5f9e8ecfa97a1a6fd02475486e522a6d62f4bea53c32a7c1172c9 \
+    --hash=sha256:ca7b7d138033dffb07922856a55d51934497024f1d5b8425acbcfa58ee97269f
     # via
     #   -r requirements.prod.in
     #   osgithub
