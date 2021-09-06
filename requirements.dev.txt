@@ -90,6 +90,7 @@ furl==2.1.2 \
     # via
     #   -c requirements.prod.in
     #   -r requirements.prod.in
+    #   osgithub
 gunicorn==20.1.0 \
     --hash=sha256:9dcc4547dbb1cb284accfb15ab5667a0e5d1881cc443e0677b4882a4067a807e \
     --hash=sha256:e0a968b5ba15f8a328fdfd7ab1fcb5af4470c28aaf7e55df02a99bc13138e6e8
@@ -186,6 +187,12 @@ orderedmultidict==1.0.1 \
     --hash=sha256:04070bbb5e87291cc9bfa51df413677faf2141c73c61d2a5f7b26bea3cd882ad \
     --hash=sha256:43c839a17ee3cdd62234c47deca1a8508a3f2ca1d0678a3bf791c87cf84adbf3
     # via furl
+osgithub==0.1.1 \
+    --hash=sha256:b743a88be2a1d695e53fa06f3f0480ef0a98f0891e7457a60c6e47d0485d11ef \
+    --hash=sha256:da44311d67011dc6fa7f24be785a8cb0ab1fa522db46987c1e181998b22f0be9
+    # via
+    #   -c requirements.prod.in
+    #   -r requirements.prod.in
 packaging==21.0 \
     --hash=sha256:7dc96269f53a4ccec5c0670940a4281106dd0bb343f47b7471f779df49c2fbe7 \
     --hash=sha256:c86254f9220d55e31cc94d69bade760f0847da8000def4dfe1c6b872fd14ff14
@@ -222,9 +229,9 @@ pyparsing==2.4.7 \
     --hash=sha256:c203ec8783bf771a155b207279b9bccb8dea02d8f0c9e5f8ead507bc3246ecc1 \
     --hash=sha256:ef9d7589ef3c200abe66653d3f1ab1033c3c419ae9b9bdb1240a85b024efc88b
     # via packaging
-pytest==6.2.4 \
-    --hash=sha256:50bcad0a0b9c5a72c8e4e7c9855a3ad496ca6a881a3641b4260605450772c54b \
-    --hash=sha256:91ef2131a9bd6be8f76f1f08eac5c5317221d6ad1e143ae03894b862e8976890
+pytest==6.2.5 \
+    --hash=sha256:131b36680866a76e6781d13f101efb86cf674ebb9762eb70d3082b6f29889e89 \
+    --hash=sha256:7310f8d27bc79ced999e760ca304d69f6ba6c6649c0b60fb0e04a4a77cacc134
     # via -r requirements.dev.in
 python-dotenv==0.18.0 \
     --hash=sha256:dd8fe852847f4fbfadabf6183ddd4c824a9651f02d51714fa075c95561959c7d \
@@ -316,6 +323,7 @@ requests==2.26.0 \
     # via
     #   -c requirements.prod.in
     #   -r requirements.prod.in
+    #   osgithub
     #   requests-cache
 requests-cache==0.7.1 \
     --hash=sha256:1e88c6bc7037df2a0f06377c7420aa60450abc8ac11c760bc562a6e50482e364 \
@@ -323,6 +331,7 @@ requests-cache==0.7.1 \
     # via
     #   -c requirements.prod.in
     #   -r requirements.prod.in
+    #   osgithub
 six==1.16.0 \
     --hash=sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926 \
     --hash=sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254
